@@ -4,7 +4,15 @@ import { Switch, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 import "./App.css";
-import { BoardLoading, NewSketchBoard, Welcome } from "./pages";
+import {
+  BoardLoading,
+  NewSketchBoard,
+  WelcomePage,
+  SketchBoardCamOn,
+  MiniDrawer,
+} from "./pages";
+import { LoadingSpinner } from "./pages/LoadingSpinner/LoadingSpinner";
+
 
 
 
@@ -24,13 +32,22 @@ function App() {
     return (
       <Switch>
         <Route exact path="/">
-          <Welcome onClick={() => setIsLoading(true)} />
+          <WelcomePage onClick={() => setIsLoading(true)} />
         </Route>
-        <Route  path="/boardloading">
+        <Route exact path="/loading">
+          <LoadingSpinner onClick={() => setIsLoading(true)} />
+        </Route>
+        <Route path="/new-sketchboard">
           <BoardLoading />
         </Route>
-        <Route  path="/new-sketchboard">
+        <Route path="/new-sketchboard">
           <NewSketchBoard />
+        </Route>
+        <Route path="/sketchboard-cam-on">
+          <SketchBoardCamOn />
+        </Route>
+        <Route path="/minidrawer">
+          <MiniDrawer />
         </Route>
       </Switch>
     );
