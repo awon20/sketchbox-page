@@ -1,11 +1,11 @@
 import React from "react";
-import "./NewSketchBoard.css"
 
+import { BoardCard } from '../../components';
 
-export function NewSketchBoard (props) {
+export function NewSketchBoard () {
   return (
-    <div className="board-card">
-      NewSketchBoard
+    <div>
+        <BoardCard />
     </div>
   );
 };
