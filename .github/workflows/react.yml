@@ -24,5 +24,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - run: npm install -g npm-check-updates
+    - run: ncu -u
+    - run: npm update
     - run: npm i
     - run: npm run build
