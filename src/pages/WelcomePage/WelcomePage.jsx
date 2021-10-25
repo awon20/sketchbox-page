@@ -1,5 +1,5 @@
 import "./WelcomePage.css";
-import { SvgSketchBoxLogo } from "../../components/SketchBoxLogo/SketchBoxLogo"
+import { SvgSketchBoxLogo } from "./src/components/SketchBoxLogo/SketchBoxLogo"
 import { Link } from "react-router-dom";
 
 
