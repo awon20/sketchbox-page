@@ -1,5 +1,4 @@
 export { BoardLayout } from "./BoardLayout/BoardLayout";
-export { SvgSketchBoxLogo } from "./SketchBoxLogo/SketchBoxLogo";
 export { BoardCard } from "./BoardCard/BoardCard";
 export { CreateBoard } from "./CreateBoard/CreateBoard";
 export { CardTitle } from "./CardTitle/CardTitle";
@@ -18,3 +17,4 @@ export { LoadingPage } from "./LoadingPage/LoadingPage";
 export { ToolsBox } from "./ToolsBox/ToolsBox";
 export { RecordingButton } from "./VideoRecorderComponent/RecordingButton";
 export { RecordingAPI } from "./VideoRecorderComponent/RecordingAPI";
+export { SvgSketchBoxLogo } from "./SketchBoxLogo/SketchBoxLogo";
