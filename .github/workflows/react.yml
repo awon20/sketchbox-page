@@ -26,6 +26,6 @@ jobs:
         cache: 'npm'
     - run: npm install -g npm-check-updates
     - run: ncu -u
-    - run: npm update
+    - run: npm update --force
     - run: npm i
     - run: npm run build
