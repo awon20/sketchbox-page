@@ -1,4 +1,4 @@
-# Security maintenance — 2026-10-14
+# Security maintenance — 2026-10-15
 
 Updated the existing GitHub Actions workflow and restricted the demonstration socket server to localhost.
 
@@ -8,12 +8,11 @@ Compatible dependency updates and a weekly Dependabot configuration are included
 
 Installation: passed. Build: passed.
 
-npm audit reports 108 affected packages: 2 critical, 68 high, 35 moderate, 3 low. Baseline total: 223.
+npm audit reports 105 affected packages: 0 critical, 67 high, 35 moderate, 3 low. Baseline total: 223.
 
 ## Remaining dependency findings
 
-- gh-pages: critical; registry suggests gh-pages@6.3.0 (major upgrade).
-- loader-utils: critical; a fix may be available.
+- gh-pages: high; registry suggests gh-pages@6.1.1 (major upgrade).
 - react-component-whiteboard: high; no registry fix reported.
 - react-pen-draw: high; registry suggests react-pen-draw@1.0.1 (major upgrade).
 - react-scripts: high; registry suggests react-scripts@0.0.0 (major upgrade).
