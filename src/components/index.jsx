@@ -1,5 +1,5 @@
 export { BoardLayout } from "./BoardLayout/BoardLayout";
-export { SvgSketchBoxLogo } from "./SketchBoxLogo/SketchBoxLogo";
+export { SvgSketchBoxLogo } from "./sketchboxlogo/SketchBoxLogo";
 export { BoardCard } from "./BoardCard/BoardCard";
 export { CreateBoard } from "./CreateBoard/CreateBoard";
 export { CardTitle } from "./CardTitle/CardTitle";
