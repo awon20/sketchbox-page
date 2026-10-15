@@ -24,9 +24,9 @@ const useStyles = makeStyles({
 
 export function LoadingPage() {
     const classes = useStyles();
-    const [cat, setCat] = useState();
-    const [loading, setLoading] = useState(false);
-    const [ done, setDone] = useState(false);
+    const [, setCat] = useState();
+    const [, setLoading] = useState(false);
+    const [, setDone] = useState(false);
 
     useEffect(() => {
         getCatPic();
